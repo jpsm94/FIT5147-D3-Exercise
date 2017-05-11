@@ -1,0 +1,70 @@
+/*
+style.css
+*/
+
+html, body, section {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	font-family: arial;
+	position: relative;
+	top: 0px;
+	left: 300px;
+}
+
+text {
+	font-family: arial;
+	font-size: 12px;
+}
+
+/* legend text style */
+.legend {
+	font-family: arial;
+	font-size: 14px;	
+	font-weight: bold;
+}
+
+/* legend header text style */
+.legend-header {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+/* line style */
+path.line {
+	fill: none;
+	stroke-width: 3px;
+}
+
+/* path and line style */
+.axis path,
+.axis line {
+  fill: none;
+  shape-rendering: crispEdges;		  
+}
+
+/* labels for x and y axes */
+.axis-label {
+	font-family: arial;	
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* hover tooltip style */
+#tooltip {
+	font-family: arial;			
+	border:2px solid;
+	border-radius:3px;
+	box-shadow:#333333 0px 0px 10px;
+	margin:200px auto;
+	padding:5px 10px;
+	background:rgba(255, 255, 255, 0.8);
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:10500;
+}		
